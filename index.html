@@ -1,269 +1,846 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DeepGI | Deep General Intelligence Lab</title>
-    <meta name="description" content="DeepGI: Deep General Intelligence Lab - Cutting-edge research in Deep Learning, Blockchain, Post-Quantum Cryptography, and AI for secure democratic systems. Based in Dhaka, Bangladesh with affiliations at Texas A&M University and BUBT.">
-    <meta name="keywords" content="Deep Learning, Blockchain, Post-Quantum Cryptography, E-Voting, AI Research, Machine Learning, Computer Vision, Medical AI, Bangladesh, Texas A&M">
-    <meta name="author" content="DeepGI Lab">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://deepgi.org/">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://deepgi.org/">
-    <meta property="og:title" content="DeepGI | Deep General Intelligence Lab">
-    <meta property="og:description" content="Cutting-edge research in Deep Learning, Blockchain, and Post-Quantum Cryptography for secure democratic systems.">
-    <meta property="og:image" content="https://deepgi.org/og-image.png">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepGI | Deep General Intelligence Lab</title>
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://deepgi.org/">
-    <meta name="twitter:title" content="DeepGI | Deep General Intelligence Lab">
-    <meta name="twitter:description" content="Cutting-edge research in Deep Learning, Blockchain, and Post-Quantum Cryptography for secure democratic systems.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://deepgi-lab.github.io/favicon.ico">
+  <link rel="apple-touch-icon" href="https://deepgi-lab.github.io/favicon-192.webp">
 
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
+  <meta name="description"
+    content="DeepGI: Deep General Intelligence Lab - Cutting-edge research in Deep Learning, Blockchain, Post-Quantum Cryptography, and AI for secure democratic systems. Based in Dhaka, Bangladesh with affiliations at Texas A&M University and BUBT.">
+  <meta name="keywords"
+    content="Deep Learning, Blockchain, Post-Quantum Cryptography, E-Voting, AI Research, Machine Learning, Computer Vision, Medical AI, Bangladesh, Texas A&M">
+  <meta name="author" content="DeepGI Lab">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://deepgi-lab.github.io/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://deepgi-lab.github.io/">
+  <meta property="og:title" content="DeepGI | Deep General Intelligence Lab">
+  <meta property="og:description"
+    content="Cutting-edge research in Deep Learning, Blockchain, and Post-Quantum Cryptography for secure democratic systems.">
+  <meta property="og:image" content="https://deepgi-lab.github.io/og-image.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://deepgi-lab.github.io/">
+  <meta name="twitter:title" content="DeepGI | Deep General Intelligence Lab">
+  <meta name="twitter:description"
+    content="Cutting-edge research in Deep Learning, Blockchain, and Post-Quantum Cryptography for secure democratic systems.">
+
+  <!-- JSON-LD Structured Data - Organization -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ResearchOrganization",
+      "@id": "https://deepgi-lab.github.io/#organization",
       "name": "DeepGI: Deep General Intelligence Lab",
       "alternateName": "DeepGI Lab",
-      "url": "https://deepgi.org",
-      "logo": "https://deepgi.org/logo.png",
+      "url": "https://deepgi-lab.github.io/",
+      "logo": "https://deepgi-lab.github.io/logo.webp",
       "description": "Since 2022, DeepGI Lab has been pursuing cutting-edge research in deep learning and blockchain to build secure, scalable systems for democratic participation and critical infrastructure.",
       "foundingDate": "2022",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Mirpur Road, Rupnagar",
         "addressLocality": "Dhaka",
-        "addressCountry": "Bangladesh"
+        "postalCode": "1216",
+        "addressCountry": "BD"
       },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Research Inquiries",
+        "email": "deepgilab@gmail.com",
+        "availableLanguage": ["Bangla", "English"]
+      },
+      "knowsLanguage": ["Bangla", "English"],
       "sameAs": [
-        "https://github.com/JonyBepary",
-        "https://github.com/rabiulrahat",
-        "https://scholar.google.com/citations?user=wlILE8sAAAAJ"
+        "https://github.com/deepgi-lab",
+        "https://www.researchgate.net/lab/DeepGI-Lab-Partho-Ghose"
+      ],
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Deep Learning",
+          "sameAs": "https://en.wikipedia.org/wiki/Deep_learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Blockchain",
+          "sameAs": "https://en.wikipedia.org/wiki/Blockchain"
+        },
+        {
+          "@type": "Thing",
+          "name": "Post-Quantum Cryptography",
+          "sameAs": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+        },
+        {
+          "@type": "Thing",
+          "name": "E-Voting Systems",
+          "sameAs": "https://en.wikipedia.org/wiki/Electronic_voting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medical AI",
+          "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"
+        },
+        {
+          "@type": "Thing",
+          "name": "Computer Vision",
+          "sameAs": "https://en.wikipedia.org/wiki/Computer_vision"
+        },
+        {
+          "@type": "Thing",
+          "name": "Federated Learning",
+          "sameAs": "https://en.wikipedia.org/wiki/Federated_learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Game Theory",
+          "sameAs": "https://en.wikipedia.org/wiki/Game_theory"
+        },
+        {
+          "@type": "Thing",
+          "name": "Multi-Agent Systems",
+          "sameAs": "https://en.wikipedia.org/wiki/Multi-agent_system"
+        },
+        {
+          "@type": "Thing",
+          "name": "Biometric Systems",
+          "sameAs": "https://en.wikipedia.org/wiki/Biometrics"
+        },
+        {
+          "@type": "Thing",
+          "name": "Distributed Systems",
+          "sameAs": "https://en.wikipedia.org/wiki/Distributed_computing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Natural Language Processing",
+          "sameAs": "https://en.wikipedia.org/wiki/Natural_language_processing"
+        }
       ],
       "member": [
         {
           "@type": "Person",
-          "@id": "#partho-ghose",
+          "@id": "https://deepgi-lab.github.io/#partho-ghose",
           "name": "Partho Ghose",
-          "jobTitle": "Lab Head",
-          "affiliation": {
-            "@type": "EducationalOrganization",
-            "name": "Texas A&M University"
-          },
-          "description": "Graduate Research Assistant at Texas A&M University (Biological & Agricultural Engineering). Former Lecturer at BUBT. Focuses on AI in Healthcare and Agriculture.",
-          "email": "parthoghosh92@gmail.com",
-          "sameAs": [
-            "https://www.linkedin.com/in/partho-ghose-420aa921b"
-          ],
-          "knowsAbout": ["Deep Learning", "Medical Imaging", "Computer Vision", "Reversible Circuit Design"]
+          "jobTitle": "Lab Head"
         },
         {
           "@type": "Person",
-          "@id": "#sohel-ahmed-joni",
+          "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni",
           "name": "Sohel Ahmed Joni",
-          "jobTitle": "Research Associate",
-          "affiliation": {
-            "@type": "EducationalOrganization",
-            "name": "Bangladesh University of Business and Technology"
-          },
-          "description": "Specializes in secure, decentralized systems. Lead author on HAC-Bchain and Grainbee architectures. Expert in combining Blockchain with Deep Learning.",
-          "email": "sohelahmedjony@gmail.com",
-          "sameAs": [
-            "https://github.com/JonyBepary",
-            "https://linkedin.com/in/sohel-ahmed-jony",
-            "http://jony-blog.github.io/"
-          ],
-          "knowsAbout": ["Blockchain", "Post-Quantum Cryptography", "Go", "Hyperledger Fabric"]
+          "jobTitle": "Research Associate"
         },
         {
           "@type": "Person",
-          "@id": "#nishat-tasnin",
+          "@id": "https://deepgi-lab.github.io/#nishat-tasnin",
           "name": "Nishat Tasnin",
-          "jobTitle": "Research Associate",
-          "affiliation": {
-            "@type": "EducationalOrganization",
-            "name": "Bangladesh University of Business and Technology"
-          },
-          "description": "Award-winning researcher (Best Paper, IEEE COMPAS 2024). Focuses on data sharding strategies and deep learning optimization for voting and healthcare.",
-          "email": "nishattasnin02@gmail.com",
-          "sameAs": [
-            "https://github.com/nishattasnin",
-            "https://linkedin.com/in/nishat-tasnin02"
-          ],
-          "knowsAbout": ["Data Analysis", "Machine Learning", "Python", "Feature Engineering"]
+          "jobTitle": "Research Associate"
         },
         {
           "@type": "Person",
-          "@id": "#rabiul-rahat",
+          "@id": "https://deepgi-lab.github.io/#rabiul-rahat",
           "name": "Rabiul Rahat",
-          "jobTitle": "Research Associate",
-          "affiliation": {
-            "@type": "EducationalOrganization",
-            "name": "Bangladesh University of Business and Technology"
-          },
-          "description": "Champion of Brainstorming Week 2024. Key contributor to HAC-Bchain and Grainbee protocols. Focuses on algorithmic efficiency in decentralized networks.",
-          "email": "rabiulrahatt@gmail.com",
-          "url": "https://rabiulrahat.github.io/",
-          "sameAs": [
-            "https://www.linkedin.com/in/rabiulrahat",
-            "https://github.com/rabiulrahat",
-            "https://scholar.google.com/citations?user=wlILE8sAAAAJ&hl=en"
-          ],
-          "knowsAbout": ["Blockchain", "Cryptography", "Quantum Security", "NLP", "Federated Learning"]
+          "jobTitle": "Research Associate"
         }
       ],
-      "knowsAbout": [
-        "Deep Learning",
-        "Blockchain",
-        "Post-Quantum Cryptography",
-        "E-Voting Systems",
-        "Medical AI",
-        "Computer Vision",
-        "Federated Learning"
-      ]
+      "award": "Best Paper Award - IEEE COMPAS 2024"
     }
     </script>
 
-    <!-- Publications Schema -->
-    <script type="application/ld+json">
+  <!-- JSON-LD - Partho Ghose Profile -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Person", "Researcher"],
+      "@id": "https://deepgi-lab.github.io/#partho-ghose",
+      "name": "Partho Ghose",
+      "givenName": "Partho",
+      "familyName": "Ghose",
+      "url": "https://deepgi-lab.github.io/#team",
+      "image": "https://deepgi-lab.github.io/images/team/partho/patho_large.webp",
+      "jobTitle": "Lab Head",
+      "description": "Graduate Research Assistant at Texas A&M University (Biological & Agricultural Engineering). Former Lecturer at BUBT. Focuses on AI in Healthcare and Agriculture.",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Texas A&M University",
+        "department": "Biological & Agricultural Engineering"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Jagannath University",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dhaka",
+          "addressCountry": "BD"
+        }
+      },
+      "worksFor": {
+        "@type": "ResearchOrganization",
+        "@id": "https://deepgi-lab.github.io/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/partho-ghose-420aa921b",
+        "https://scholar.google.com/citations?user=Tqw15RkAAAAJ&hl=en",
+        "https://orcid.org/0000-0002-5840-2008",
+        "https://www.researchgate.net/profile/Partho-Ghose"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-5840-2008"
+      },
+      "knowsAbout": [
+        {"@type": "Thing", "name": "Deep Learning", "sameAs": "https://en.wikipedia.org/wiki/Deep_learning"},
+        {"@type": "Thing", "name": "Health Informatics", "sameAs": "https://en.wikipedia.org/wiki/Health_informatics"},
+        {"@type": "Thing", "name": "Biomedical Engineering", "sameAs": "https://en.wikipedia.org/wiki/Biomedical_engineering"},
+        {"@type": "Thing", "name": "AI in Agriculture", "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_agriculture"},
+        {"@type": "Thing", "name": "Reversible Circuit Design", "sameAs": "https://en.wikipedia.org/wiki/Reversible_computing"},
+        {"@type": "Thing", "name": "Data Science", "sameAs": "https://en.wikipedia.org/wiki/Data_science"}
+      ],
+      "knowsLanguage": ["Bangla", "English"],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Ph.D. Candidate"
+      }
+    }
+    </script>
+
+  <!-- JSON-LD - Sohel Ahmed Joni Profile -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Person", "Researcher"],
+      "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni",
+      "name": "Sohel Ahmed Joni",
+      "givenName": "Sohel Ahmed",
+      "familyName": "Joni",
+      "url": "https://deepgi-lab.github.io/#team",
+      "image": "https://deepgi-lab.github.io/images/team/sohel/joni_large.webp",
+      "jobTitle": "Research Associate",
+      "description": "Specializes in secure, decentralized systems. Lead author on HAC-Bchain and Grainbee. Researcher in post-quantum cryptography and consensus mechanisms.",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Bangladesh University of Business and Technology",
+        "alternateName": "BUBT"
+      },
+      "worksFor": {
+        "@type": "ResearchOrganization",
+        "@id": "https://deepgi-lab.github.io/#organization"
+      },
+      "sameAs": [
+        "https://github.com/JonyBepary",
+        "https://linkedin.com/in/sohel-ahmed-jony",
+        "https://scholar.google.com/citations?user=1Ky6kj0AAAAJ&hl=en",
+        "https://orcid.org/0009-0007-3020-4724",
+        "https://www.researchgate.net/profile/Sohel-Ahmed-Joni"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0007-3020-4724"
+      },
+      "knowsAbout": [
+        {"@type": "Thing", "name": "Blockchain", "sameAs": "https://en.wikipedia.org/wiki/Blockchain"},
+        {"@type": "Thing", "name": "Post-Quantum Cryptography", "sameAs": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"},
+        {"@type": "Thing", "name": "Hyperledger Fabric", "sameAs": "https://en.wikipedia.org/wiki/Hyperledger"},
+        {"@type": "Thing", "name": "Deep Learning", "sameAs": "https://en.wikipedia.org/wiki/Deep_learning"},
+        {"@type": "Thing", "name": "Machine Learning", "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"},
+        {"@type": "Thing", "name": "Federated Learning", "sameAs": "https://en.wikipedia.org/wiki/Federated_learning"},
+        {"@type": "Thing", "name": "Computer Vision", "sameAs": "https://en.wikipedia.org/wiki/Computer_vision"}
+      ],
+      "knowsLanguage": ["Bangla", "English"]
+    }
+    </script>
+
+  <!-- JSON-LD - Nishat Tasnin Profile -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Person", "Researcher"],
+      "@id": "https://deepgi-lab.github.io/#nishat-tasnin",
+      "name": "Nishat Tasnin",
+      "givenName": "Nishat",
+      "familyName": "Tasnin",
+      "url": "https://deepgi-lab.github.io/#team",
+      "image": "https://deepgi-lab.github.io/images/team/nishat/nishat_large.webp",
+      "jobTitle": "Research Associate",
+      "description": "Award-winning researcher (Best Paper, IEEE COMPAS 2024). Focuses on data sharding strategies and deep learning optimization for voting and healthcare.",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Bangladesh University of Business and Technology",
+        "alternateName": "BUBT"
+      },
+      "worksFor": {
+        "@type": "ResearchOrganization",
+        "@id": "https://deepgi-lab.github.io/#organization"
+      },
+      "sameAs": [
+        "https://github.com/nishattasnin",
+        "https://linkedin.com/in/nishat-tasnin02",
+        "https://scholar.google.com/citations?user=ynEJEjUAAAAJ&hl=en",
+        "https://orcid.org/0009-0002-8951-5301",
+        "https://www.researchgate.net/profile/Nishat-Tasnin"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0002-8951-5301"
+      },
+      "knowsAbout": [
+        {"@type": "Thing", "name": "Data Analysis", "sameAs": "https://en.wikipedia.org/wiki/Data_analysis"},
+        {"@type": "Thing", "name": "Machine Learning", "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"},
+        {"@type": "Thing", "name": "Python", "sameAs": "https://en.wikipedia.org/wiki/Python_(programming_language)"},
+        {"@type": "Thing", "name": "Feature Engineering", "sameAs": "https://en.wikipedia.org/wiki/Feature_engineering"}
+      ],
+      "award": "Best Paper Award - IEEE COMPAS 2024",
+      "knowsLanguage": ["Bangla", "English"]
+    }
+    </script>
+
+  <!-- JSON-LD - Rabiul Rahat Profile -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Person", "Researcher"],
+      "@id": "https://deepgi-lab.github.io/#rabiul-rahat",
+      "name": "Rabiul Rahat",
+      "givenName": "Rabiul",
+      "familyName": "Rahat",
+      "url": "https://deepgi-lab.github.io/#team",
+      "image": "https://deepgi-lab.github.io/images/team/rabiul/rahat_large.webp",
+      "jobTitle": "Research Associate",
+      "description": "Researcher in blockchain security and post-quantum cryptography. Key contributor to HAC-Bchain, Grainbee, and post-quantum e-voting systems.",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Bangladesh University of Business and Technology",
+        "alternateName": "BUBT"
+      },
+      "worksFor": {
+        "@type": "ResearchOrganization",
+        "@id": "https://deepgi-lab.github.io/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/rabiulrahat",
+        "https://github.com/rabiulrahat",
+        "https://scholar.google.com/citations?user=wlILE8sAAAAJ&hl=en",
+        "https://orcid.org/0009-0009-1130-1742",
+        "https://www.researchgate.net/profile/Rabiul-Rahat"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0009-1130-1742"
+      },
+      "knowsAbout": [
+        {"@type": "Thing", "name": "Blockchain", "sameAs": "https://en.wikipedia.org/wiki/Blockchain"},
+        {"@type": "Thing", "name": "Cryptography", "sameAs": "https://en.wikipedia.org/wiki/Cryptography"},
+        {"@type": "Thing", "name": "Quantum Security", "sameAs": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"},
+        {"@type": "Thing", "name": "NLP", "sameAs": "https://en.wikipedia.org/wiki/Natural_language_processing"},
+        {"@type": "Thing", "name": "Federated Learning", "sameAs": "https://en.wikipedia.org/wiki/Federated_learning"},
+        {"@type": "Thing", "name": "Deep Learning", "sameAs": "https://en.wikipedia.org/wiki/Deep_learning"},
+        {"@type": "Thing", "name": "Machine Learning", "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"}
+      ],
+      "knowsLanguage": ["Bangla", "English"]
+    }
+    </script>
+
+  <!-- JSON-LD - Publications with Full DOIs -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": "DeepGI Lab Publications",
       "itemListElement": [
         {
-          "@type": "ScholarlyArticle",
+          "@type": "ListItem",
           "position": 1,
-          "name": "Towards secure democracy: a hybrid blockchain-enabled secure and scalable e-voting system with sharding and post-quantum cryptography",
-          "datePublished": "2025",
-          "author": ["Sohel Ahmed Joni", "Rabiul Rahat", "Nishat Tasnin", "Partho Ghose"],
-          "publisher": "International Journal of System Assurance Engineering and Management",
-          "url": "https://doi.org/10.1007/s13198-025-02927-w",
-          "keywords": ["Blockchain", "E-Voting", "Post-Quantum"]
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Towards secure democracy: a hybrid blockchain-enabled secure and scalable e-voting system with sharding and post-quantum cryptography",
+            "headline": "Towards secure democracy: a hybrid blockchain-enabled secure and scalable e-voting system with sharding and post-quantum cryptography",
+            "datePublished": "2025-01-01T00:00:00Z",
+            "author": [
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"}
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "International Journal of System Assurance Engineering and Management"
+            },
+            "url": "https://www.researchgate.net/publication/395022687_Towards_secure_democracy_a_hybrid_blockchain-enabled_secure_and_scalable_e-voting_system_with_sharding_and_post-quantum_cryptography",
+            "sameAs": "https://doi.org/10.1007/s13198-025-02927-w",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1007/s13198-025-02927-w"
+            },
+            "keywords": ["Blockchain", "E-Voting", "Post-Quantum Cryptography", "Sharding"]
+          }
         },
         {
-          "@type": "ScholarlyArticle",
+          "@type": "ListItem",
           "position": 2,
-          "name": "MultKAN-Nash: Strategic Multi-Agent Disaster Response using MultKAN and Nash Equilibriums",
-          "datePublished": "2025",
-          "author": ["Sohel Ahmed Joni", "Nishat Tasnin", "Sorna Das", "Ahmed Shafkat", "Samin Yasar", "Bijon Mallik"],
-          "publisher": "Engrxiv Preprint",
-          "url": "https://doi.org/10.31224/6079",
-          "keywords": ["Multi-Agent Systems", "Game Theory", "Disaster Response"]
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "MultKAN-Nash: Strategic Multi-Agent Disaster Response using MultKAN and Nash Equilibriums",
+            "headline": "MultKAN-Nash: Strategic Multi-Agent Disaster Response using MultKAN and Nash Equilibriums",
+            "datePublished": "2025-01-01T00:00:00Z",
+            "author": [
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+              {"@type": "Person", "name": "Sorna Das", "url": "https://scholar.google.com/citations?user=Ycd02NcAAAAJ&hl=en"},
+              {"@type": "Person", "name": "Ahmed Shafkat", "url": "https://scholar.google.com/citations?hl=en&user=m3egbA8AAAAJ"},
+              {"@type": "Person", "name": "Samin Yasar", "url": "https://scholar.google.com/citations?hl=en&user=RTR9yQcAAAAJ"},
+              {"@type": "Person", "name": "Bijon Mallik", "url": "https://scholar.google.com/citations?hl=en&user=HGkBtE0AAAAJ"}
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Engrxiv Preprint"
+            },
+            "image": [
+              "https://www.researchgate.net/publication/399047540/figure/fig1/AS:11431281839449235@1767811417983/MultKAN-Nash-pipeline-Flood-data-are-processed-into-agent-utilities-via-MultKANs_W640.jpg",
+              "https://www.researchgate.net/publication/399047540/figure/fig2/AS:11431281839554731@1767811621078/Comprehensive-performance-analysis-of-the-MultKAN-Nash-system-a-Comparison-of_W640.jpg"
+            ],
+            "url": "https://www.researchgate.net/publication/399047540_MultKAN-Nash_Strategic_Multi-Agent_Disaster_Response_using_MultKAN_and_Nash_Equilibriums",
+            "sameAs": "https://doi.org/10.31224/6079",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.31224/6079"
+            },
+            "keywords": ["Multi-Agent Systems", "Game Theory", "Disaster Response", "KAN"]
+          }
         },
         {
-          "@type": "ScholarlyArticle",
+          "@type": "ListItem",
           "position": 3,
-          "name": "Grainbee: A Quantum-Resistant Blockchain-Based Ration Distribution System with Hardware Security Modules",
-          "datePublished": "2024",
-          "author": ["Sohel Ahmed Joni", "Rabiul Rahat", "Nishat Tasnin", "Partho Ghose", "M. Rashid"],
-          "publisher": "IEEE COMPAS 2024",
-          "url": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Grainbee: A Quantum-Resistant Blockchain-Based Ration Distribution System with Hardware Security Modules",
+            "headline": "Grainbee: A Quantum-Resistant Blockchain-Based Ration Distribution System with Hardware Security Modules",
+            "datePublished": "2024-01-01T00:00:00Z",
+          "author": [
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"},
+            {"@type": "Person", "name": "M. Rashid", "url":"https://www.researchgate.net/profile/Mdmahbub-Or-Rashid"}
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "IEEE COMPAS 2024"
+          },
+          "image": [
+            "https://www.researchgate.net/profile/Mdmahbub-Or-Rashid/publication/387245612/figure/fig3/AS:11431281839496609@1767811861316/The-diagram-illustrates-how-various-participants-customers-sellers-government_W640.jpg",
+            "https://www.researchgate.net/publication/387245612/figure/fig1/AS:1148790323456789@Grainbee-system-architecture.png"
+          ],
+          "url": "https://www.researchgate.net/publication/387245612_Grainbee_A_Quantum-Resistant_Blockchain-Based_Ration_Distribution_System_with_Hardware_Security_Modules",
+          "sameAs": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1109/COMPAS60761.2024.10796594"
+          },
           "award": "Best Paper Award",
-          "keywords": ["Blockchain", "Supply Chain", "Security"]
+          "keywords": ["Blockchain", "Supply Chain", "Security", "HSM", "Quantum-Resistant"]
+          }
         },
         {
-          "@type": "ScholarlyArticle",
+          "@type": "ListItem",
           "position": 4,
-          "name": "Hybrid-Blockchain-Based Electronic Voting Machine System Embedded with Deepface, Sharding, and Post-Quantum Techniques",
-          "datePublished": "2024",
-          "author": ["Sohel Ahmed Joni", "Rabiul Rahat", "Nishat Tasnin", "Partho Ghose", "MA Uddin", "J Ayoade"],
-          "publisher": "MDPI Blockchains",
-          "url": "https://doi.org/10.3390/blockchains2040017",
-          "keywords": ["Deep Learning", "Blockchain", "Biometrics"]
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Hybrid-Blockchain-Based Electronic Voting Machine System Embedded with Deepface, Sharding, and Post-Quantum Techniques",
+            "headline": "Hybrid-Blockchain-Based Electronic Voting Machine System Embedded with Deepface, Sharding, and Post-Quantum Techniques",
+            "datePublished": "2024-01-01T00:00:00Z",
+          "author": [
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"},
+            {"@type": "Person", "name": "MA Uddin", "url": "https://www.researchgate.net/profile/Md-Ashraf-Uddin"},
+            {"@type": "Person", "name": "J Ayoade","url": "https://sciprofiles.com/profile/3682084"}
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "MDPI Blockchains"
+          },
+          "image": [
+            "https://www.researchgate.net/publication/384496809/figure/fig1/AS:1148790323456790@System-overview.png"
+          ],
+          "url": "https://www.researchgate.net/publication/384496809_Hybrid-Blockchain-Based_Electronic_Voting_Machine_System_Embedded_with_Deepface_Sharding_and_Post-Quantum_Techniques",
+          "sameAs": "https://doi.org/10.3390/blockchains2040017",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.3390/blockchains2040017"
+          },
+          "keywords": ["Deep Learning", "Blockchain", "Biometrics", "E-Voting"]
+          }
         },
         {
-          "@type": "ScholarlyArticle",
+          "@type": "ListItem",
           "position": 5,
-          "name": "HAC-Bchain: A Secure and Scalable Blockchain-Shard Based E-Voting System",
-          "datePublished": "2023",
-          "author": ["Sohel Ahmed Joni", "Rabiul Rahat", "Nishat Tasnin", "Partho Ghose", "L Gaur"],
-          "publisher": "IEEE TEMSCON-ASPAC",
-          "url": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
-          "keywords": ["Blockchain", "Consensus"]
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Enhancing Electoral Integrity: A Hybrid Blockchain-Based E-Voting System with Deep Learning and Post-quantum Cryptography",
+            "headline": "Enhancing Electoral Integrity: A Hybrid Blockchain-Based E-Voting System with Deep Learning and Post-quantum Cryptography",
+            "datePublished": "2024-01-01T00:00:00Z",
+          "author": [
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"}
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "Springer"
+          },
+          "url": "https://www.researchgate.net/publication/385004188_Enhancing_Electoral_Integrity_A_Hybrid_Blockchain-Based_E-Voting_System_with_Deep_Learning_and_Post-quantum_Cryptography",
+          "sameAs": "https://doi.org/10.1007/978-981-97-3937-0_47",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1007/978-981-97-3937-0_47"
+          },
+          "keywords": ["Blockchain", "Deep Learning", "Post-Quantum Cryptography"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "An Effective Combination of Deep and Machine Learning Models for Monkeypox Detection",
+            "headline": "An Effective Combination of Deep and Machine Learning Models for Monkeypox Detection",
+            "datePublished": "2024-01-01T00:00:00Z",
+          "author": [
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"},
+            {"@type": "Person", "name": "M Biswas"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"}
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "TEHI 2024 - Springer"
+          },
+          "url": "https://doi.org/10.1007/978-981-97-3937-0_3",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1007/978-981-97-3937-0_3"
+          },
+          "keywords": ["Medical AI", "Computer Vision", "Deep Learning", "Monkeypox"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "HAC-Bchain: A Secure and Scalable Blockchain-Shard Based E-Voting System",
+            "headline": "HAC-Bchain: A Secure and Scalable Blockchain-Shard Based E-Voting System",
+            "datePublished": "2023-01-01T00:00:00Z",
+          "author": [
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"},
+            {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"},
+            {"@type": "Person", "name": "L Gaur", "url": "https://www.researchgate.net/profile/Loveleen-Gaur"}
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "IEEE TEMSCON-ASPAC"
+          },
+          "image": [
+            "https://www.researchgate.net/profile/Sohel-Joni/publication/380767492/figure/fig1/AS:11431281598738267@1755721283475/This-diagram-represents-category-based-sharding-in-blockchain-network-a-illustrates_W640.jpg"
+          ],
+          "url": "https://www.researchgate.net/publication/380767492_HAC-Bchain_A_Secure_and_Scalable_Blockchain-Shard_Based_E-Voting_System",
+          "sameAs": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1109/TEMSCON-ASPAC59527.2023.10531344"
+          },
+          "keywords": ["Blockchain", "Consensus", "E-Voting", "Sharding"]
+          }
         }
       ]
     }
     </script>
 
-    <!-- Website Schema -->
-    <script type="application/ld+json">
+  <!-- JSON-LD - Website Schema -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "DeepGI Lab",
-      "url": "https://deepgi.org",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://deepgi.org/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
+      "url": "https://deepgi-lab.github.io/",
+      "description": "Deep General Intelligence Lab - Research in Deep Learning, Blockchain, and AI",
+      "publisher": {
+        "@type": "ResearchOrganization",
+        "@id": "https://deepgi-lab.github.io/#organization"
       }
     }
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              serif: ['Fraunces', 'serif'],
-              sans: ['Inter', 'sans-serif'],
+
+
+  <!-- JSON-LD - Research Projects -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "DeepGI Lab Research Projects",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "HAC-Bchain E-Voting",
+            "description": "A secure and scalable blockchain-shard based e-voting system. Implements Hierarchical Authoritative Consensus (HAC) and ZK-proofs to balance transparency with voter privacy.",
+            "url": "https://github.com/JonyBepary/HBPEVS",
+            "parentOrganization": {
+              "@type": "ResearchOrganization",
+              "@id": "https://deepgi-lab.github.io/#organization"
             },
-            colors: {
-              paper: '#FDFBF7',
-              stone: {
-                50: '#FAF9F6',
-                100: '#F2F0E9',
-                200: '#E6E4DD',
-                800: '#44403C',
-                900: '#1C1917',
-              },
-              brand: {
-                dark: '#1C1917',
-                accent: '#D96C46', // Terracotta
-                teal: '#2F3E38',   // Deep Green
-              }
+            "member": [
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"}
+            ],
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
             },
-            animation: {
-              'spin-slow': 'spin 20s linear infinite',
-              'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            "keywords": ["Blockchain", "E-Voting", "ZK-Proofs", "Consensus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Grainbee",
+            "description": "A Quantum-Resistant Blockchain-Based Ration Distribution System with Hardware Security Modules. Designed to prevent corruption in food subsidy programs.",
+            "url": "https://github.com/JonyBepary/Grainbee_Blockchain",
+            "parentOrganization": {
+              "@type": "ResearchOrganization",
+              "@id": "https://deepgi-lab.github.io/#organization"
+            },
+            "member": [
+               {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+               {"@type": "Person", "@id": "https://deepgi-lab.github.io/#rabiul-rahat"},
+               {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"}
+            ],
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
+            },
+            "keywords": ["Blockchain", "Supply Chain", "HSM", "Quantum-Resistant"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "MultKAN-Nash",
+            "description": "A strategic multi-agent disaster response system leveraging MultKAN architecture and Nash Equilibrium game theory for optimal resource allocation during emergencies.",
+            "url": "https://github.com/JonyBepary/MultKAN-Nash",
+            "parentOrganization": {
+              "@type": "ResearchOrganization",
+              "@id": "https://deepgi-lab.github.io/#organization"
+            },
+            "member": [
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#sohel-ahmed-joni"},
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#nishat-tasnin"}
+            ],
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
+            },
+            "keywords": ["Multi-Agent Systems", "Game Theory", "Disaster Response", "KAN"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Monkeypox Detection System",
+            "description": "Annotated 2,000+ dermatographic images. Implemented transfer learning pipeline with ResNet-50, VGG-16, and MobileNet for high-accuracy disease classification.",
+            "parentOrganization": {
+              "@type": "ResearchOrganization",
+              "@id": "https://deepgi-lab.github.io/#organization"
+            },
+            "member": [
+              {"@type": "Person", "@id": "https://deepgi-lab.github.io/#partho-ghose"}
+            ],
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
+            },
+            "keywords": ["Medical AI", "Computer Vision", "Transfer Learning", "CNN"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Multi-Spectral RTR",
+            "description": "Hybrid ConvNeXt–Swin Transformer for Multi-Band Radar Cross-Section Classification with Multi-Spectral Attention mechanism.",
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
+            },
+            "keywords": ["Deep Learning", "Swin Transformer", "Radar", "ConvNeXt"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "MediKAN",
+            "description": "AI framework integrating LLMs with Kolmogorov-Arnold Networks (KANs) for medical guidance and personalized physician recommendations.",
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "InProgress"
+            },
+            "keywords": ["LLM", "KAN", "Medical AI", "RAG"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Climate Nash",
+            "description": "Flood Management and Casualty Prediction using statistical modeling to identify risk patterns and predict resource needs.",
+            "url": "https://github.com/JonyBepary/climate_nash",
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Status",
+              "value": "Completed"
+            },
+            "keywords": ["Climate", "Flood Prediction", "Data Science"]
+          }
+        }
+      ]
+    }
+    </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Fraunces', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            paper: '#FDFBF7',
+            stone: {
+              50: '#FAF9F6',
+              100: '#F2F0E9',
+              200: '#E6E4DD',
+              800: '#44403C',
+              900: '#1C1917',
+            },
+            brand: {
+              dark: '#1C1917',
+              accent: '#D96C46', // Terracotta
+              teal: '#2F3E38',   // Deep Green
             }
+          },
+          animation: {
+            'spin-slow': 'spin 20s linear infinite',
+            'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
           }
         }
       }
-    </script>
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        background-color: #FDFBF7;
-        color: #1C1917;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Fraunces', serif;
-      }
-      /* Custom scrollbar for chat */
-      .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-      }
-      .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
-      ::selection {
-        background: #D96C46;
-        color: white;
-      }
-    </style>
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #FDFBF7;
+      color: #1C1917;
+    }
 
-<link rel="stylesheet" href="/index.css">
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Fraunces', serif;
+    }
+
+    /* Custom scrollbar for chat */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    ::selection {
+      background: #D96C46;
+      color: white;
+    }
+
+    /* Target highlight animation for hash navigation */
+    @keyframes target-glow {
+      0% {
+        box-shadow: 0 0 0 0 rgba(217, 108, 70, 0.7);
+        border-color: #D96C46;
+      }
+
+      50% {
+        box-shadow: 0 0 20px 10px rgba(217, 108, 70, 0.3);
+        border-color: #D96C46;
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(217, 108, 70, 0);
+        border-color: #D96C46;
+      }
+    }
+
+    :target {
+      animation: target-glow 2s ease-out;
+      border-color: #D96C46 !important;
+    }
+  </style>
+
   <script type="importmap">
 {
   "imports": {
@@ -275,9 +852,11 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="https://deepgi-lab.github.io/assets/index-H-s5lXho.js"></script>
+  <script type="module" crossorigin src="https://deepgi-lab.github.io/assets/index-CRiEPICH.js"></script>
 </head>
-  <body class="bg-paper text-brand-dark antialiased selection:bg-brand-accent selection:text-white">
-    <div id="root"></div>
+
+<body class="bg-paper text-brand-dark antialiased selection:bg-brand-accent selection:text-white">
+  <div id="root"></div>
 </body>
+
 </html>
