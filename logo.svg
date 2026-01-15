@@ -15,8 +15,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
+  <defs id="defs2" />
+  <style>
+    .logo-fill { fill: #1C1917; }
+    @media (prefers-color-scheme: dark) {
+      .logo-fill { fill: #C45A35; }
+    }
+  </style>
   <sodipodi:namedview
      id="namedview2"
      pagecolor="#ffffff"
@@ -38,7 +43,7 @@
      inkscape:current-layer="svg2" />
   <g
      transform="matrix(0.12066291,0,0,-0.12066291,-180.65397,2003.0153)"
-     fill="#000000"
+     class="logo-fill"
      stroke="none"
      id="g2">
     <path
