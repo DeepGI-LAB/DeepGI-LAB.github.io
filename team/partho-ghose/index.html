@@ -17,31 +17,37 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Person",
-        "@id": "https://deepgi-lab.github.io/team/partho-ghose",
-        "name": "Partho Ghose",
-        "jobTitle": "Lab Head",
-        "description": "Graduate Research Assistant at Texas A&M University (Biological & Agricultural Engineering), specializing in deep learning algorithms, computer vision, and machine learning. Focuses on AI for resource usage in controlled environment agriculture. Former Lecturer at BUBT.",
-        "email": "partho.ghose@tamu.edu",
-        "knowsLanguage": ["bn-BD", "en-US"],
-        "affiliation": {
-          "@type": "EducationalOrganization",
-          "name": "Texas A&M University (Ph.D. Candidate)"
+        "@type": "ProfilePage",
+        "@id": "https://deepgi-lab.github.io/team/partho-ghose/#webpage",
+        "url": "https://deepgi-lab.github.io/team/partho-ghose/",
+        "name": "Partho Ghose — Lab Head",
+        "isPartOf": { "@id": "https://deepgi-lab.github.io/#website" },
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://deepgi-lab.github.io/team/partho-ghose",
+          "name": "Partho Ghose",
+          "jobTitle": "Lab Head",
+          "description": "Graduate Research Assistant at Texas A&M University (Biological & Agricultural Engineering), specializing in deep learning algorithms, computer vision, and machine learning. Focuses on AI for resource usage in controlled environment agriculture. Former Lecturer at BUBT.",
+          "email": "partho.ghose@tamu.edu",
+          "knowsLanguage": ["bn-BD", "en-US"],
+          "affiliation": {
+            "@type": "EducationalOrganization",
+            "name": "Texas A&M University (Ph.D. Candidate)"
+          },
+          "worksFor": {
+            "@id": "https://deepgi-lab.github.io/#organization"
+          },
+          "sameAs": ["https://www.linkedin.com/in/partho-ghose-420aa921b","https://scholar.google.com/citations?user=Tqw15RkAAAAJ&hl=en","https://orcid.org/0000-0002-5840-2008","https://github.com/PKghose"],
+          "knowsAbout": [{"@type":"Thing","name":"Deep Learning","sameAs":"https://en.wikipedia.org/wiki/Deep_learning"},{"@type":"Thing","name":"Computer Vision","sameAs":"https://en.wikipedia.org/wiki/Computer_vision"},{"@type":"Thing","name":"Machine Learning","sameAs":"https://en.wikipedia.org/wiki/Machine_learning"},{"@type":"Thing","name":"Precision Agriculture","sameAs":"https://en.wikipedia.org/wiki/Precision_agriculture"}]
         },
-        "worksFor": {
-          "@type": ["Organization", "ResearchOrganization"],
-          "@id": "https://deepgi-lab.github.io/#organization"
-        },
-        "sameAs": ["https://www.linkedin.com/in/partho-ghose-420aa921b","https://scholar.google.com/citations?user=Tqw15RkAAAAJ&hl=en","https://orcid.org/0000-0002-5840-2008","https://github.com/PKghose"],
-        "knowsAbout": [{"@type":"Thing","name":"Deep Learning","sameAs":"https://en.wikipedia.org/wiki/Deep_learning"},{"@type":"Thing","name":"Computer Vision","sameAs":"https://en.wikipedia.org/wiki/Computer_vision"},{"@type":"Thing","name":"Machine Learning","sameAs":"https://en.wikipedia.org/wiki/Machine_learning"},{"@type":"Thing","name":"Precision Agriculture","sameAs":"https://en.wikipedia.org/wiki/Precision_agriculture"}]
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://deepgi-lab.github.io/" },
-          { "@type": "ListItem", "position": 2, "name": "Team", "item": "https://deepgi-lab.github.io/team" },
-          { "@type": "ListItem", "position": 3, "name": "Partho Ghose", "item": "https://deepgi-lab.github.io/team/partho-ghose" }
-        ]
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://deepgi-lab.github.io/" },
+            { "@type": "ListItem", "position": 2, "name": "Team", "item": "https://deepgi-lab.github.io/team" },
+            { "@type": "ListItem", "position": 3, "name": "Partho Ghose" }
+          ]
+        }
       }
     ]
   }

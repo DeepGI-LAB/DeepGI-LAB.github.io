@@ -17,31 +17,37 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Person",
-        "@id": "https://deepgi-lab.github.io/team/sohel-ahmed-joni",
-        "name": "Sohel Ahmed Joni",
-        "jobTitle": "Research Associate",
-        "description": "Specializes in secure, decentralized systems. Lead author on HAC-Bchain and Grainbee. Researcher in post-quantum cryptography and consensus mechanisms.",
-        "email": "sohelahmedjony@gmail.com",
-        "knowsLanguage": ["bn-BD", "en-US"],
-        "affiliation": {
-          "@type": "EducationalOrganization",
-          "name": "Bangladesh University of Business and Technology"
+        "@type": "ProfilePage",
+        "@id": "https://deepgi-lab.github.io/team/sohel-ahmed-joni/#webpage",
+        "url": "https://deepgi-lab.github.io/team/sohel-ahmed-joni/",
+        "name": "Sohel Ahmed Joni — Research Associate",
+        "isPartOf": { "@id": "https://deepgi-lab.github.io/#website" },
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://deepgi-lab.github.io/team/sohel-ahmed-joni",
+          "name": "Sohel Ahmed Joni",
+          "jobTitle": "Research Associate",
+          "description": "Specializes in secure, decentralized systems. Lead author on HAC-Bchain and Grainbee. Researcher in post-quantum cryptography and consensus mechanisms.",
+          "email": "sohelahmedjony@gmail.com",
+          "knowsLanguage": ["bn-BD", "en-US"],
+          "affiliation": {
+            "@type": "EducationalOrganization",
+            "name": "Bangladesh University of Business and Technology"
+          },
+          "worksFor": {
+            "@id": "https://deepgi-lab.github.io/#organization"
+          },
+          "sameAs": ["https://github.com/JonyBepary","https://linkedin.com/in/sohel-ahmed-jony","https://scholar.google.com/citations?user=1Ky6kj0AAAAJ&hl=en","https://orcid.org/0009-0007-3020-4724"],
+          "knowsAbout": [{"@type":"Thing","name":"Blockchain","sameAs":"https://en.wikipedia.org/wiki/Blockchain"},{"@type":"Thing","name":"Reinforcement Learning","sameAs":"https://en.wikipedia.org/wiki/Reinforcement_learning"},{"@type":"Thing","name":"Decentralized System","sameAs":"https://en.wikipedia.org/wiki/Decentralized_computing"},{"@type":"Thing","name":"LLM","sameAs":"https://en.wikipedia.org/wiki/Large_language_model"},{"@type":"Thing","name":"Post-Quantum Cryptography","sameAs":"https://en.wikipedia.org/wiki/Post-quantum_cryptography"}]
         },
-        "worksFor": {
-          "@type": ["Organization", "ResearchOrganization"],
-          "@id": "https://deepgi-lab.github.io/#organization"
-        },
-        "sameAs": ["https://github.com/JonyBepary","https://linkedin.com/in/sohel-ahmed-jony","https://scholar.google.com/citations?user=1Ky6kj0AAAAJ&hl=en","https://orcid.org/0009-0007-3020-4724"],
-        "knowsAbout": [{"@type":"Thing","name":"Blockchain","sameAs":"https://en.wikipedia.org/wiki/Blockchain"},{"@type":"Thing","name":"Reinforcement Learning","sameAs":"https://en.wikipedia.org/wiki/Reinforcement_learning"},{"@type":"Thing","name":"Decentralized System","sameAs":"https://en.wikipedia.org/wiki/Decentralized_computing"},{"@type":"Thing","name":"LLM","sameAs":"https://en.wikipedia.org/wiki/Large_language_model"},{"@type":"Thing","name":"Post-Quantum Cryptography","sameAs":"https://en.wikipedia.org/wiki/Post-quantum_cryptography"}]
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://deepgi-lab.github.io/" },
-          { "@type": "ListItem", "position": 2, "name": "Team", "item": "https://deepgi-lab.github.io/team" },
-          { "@type": "ListItem", "position": 3, "name": "Sohel Ahmed Joni", "item": "https://deepgi-lab.github.io/team/sohel-ahmed-joni" }
-        ]
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://deepgi-lab.github.io/" },
+            { "@type": "ListItem", "position": 2, "name": "Team", "item": "https://deepgi-lab.github.io/team" },
+            { "@type": "ListItem", "position": 3, "name": "Sohel Ahmed Joni" }
+          ]
+        }
       }
     ]
   }
