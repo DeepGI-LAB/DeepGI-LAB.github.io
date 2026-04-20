@@ -265,7 +265,7 @@ export const jsonLd = {
         },
         "keywords": "Blockchain, E-Voting, Post-Quantum",
         "issn": "0975-6809",
-        "citation": 0,
+        "citation": 3,
         "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
         "isPartOf": {
           "@type": "Periodical",
@@ -410,7 +410,7 @@ export const jsonLd = {
         },
         "keywords": "Blockchain, Supply Chain, Security, HSM, Quantum-Resistant",
         "pagination": "1-6",
-        "citation": 1,
+        "citation": 4,
         "license": "https://doi.org/10.15223/policy-029",
         "isPartOf": {
           "@type": "Periodical",
@@ -568,7 +568,7 @@ export const jsonLd = {
         "keywords": "Blockchain, Deep Learning, Post-Quantum, E-Voting",
         "issn": "2367-3370",
         "pagination": "687-698",
-        "citation": 3,
+        "citation": 4,
         "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
         "isPartOf": {
           "@type": "Periodical",
@@ -719,7 +719,7 @@ export const jsonLd = {
         },
         "keywords": "Blockchain, Consensus, E-Voting, Sharding",
         "pagination": "1-6",
-        "citation": 5,
+        "citation": 8,
         "license": "https://doi.org/10.15223/policy-029",
         "isPartOf": {
           "@type": "Periodical",

@@ -553,7 +553,7 @@ export const siteConfig = {
         "0975-6809",
         "0976-4348"
       ],
-      "citation_count": 0,
+      "citation_count": 3,
       "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature's AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/s13198-025-02927-w"
     },
@@ -619,7 +619,7 @@ export const siteConfig = {
       "link": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
       "publisher": "IEEE",
       "pages": "1-6",
-      "citation_count": 1,
+      "citation_count": 4,
       "license_url": "https://doi.org/10.15223/policy-029",
       "aam_terms": "© 2024 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.\n\nThe final Version of Record is available at: https://doi.org/10.1109/COMPAS60761.2024.10796594\n"
     },
@@ -694,7 +694,7 @@ export const siteConfig = {
         "2367-3389"
       ],
       "pages": "687-698",
-      "citation_count": 3,
+      "citation_count": 4,
       "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature’s AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/978-981-97-3937-0_47\n\n© The Author(s), under exclusive licence to Springer Nature. Personal use of this material is permitted. Permission from Springer Nature must be obtained for all other uses.\n"
     },
@@ -764,7 +764,7 @@ export const siteConfig = {
       "link": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
       "publisher": "IEEE",
       "pages": "1-6",
-      "citation_count": 5,
+      "citation_count": 8,
       "license_url": "https://doi.org/10.15223/policy-029",
       "aam_terms": "© 2023 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.\n\nThe final Version of Record is available at: https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344\n"
     }
