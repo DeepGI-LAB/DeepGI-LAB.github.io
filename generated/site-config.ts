@@ -111,12 +111,61 @@ export const siteConfig = {
       "role": "Lab Head",
       "affiliation": "Texas A&M University (Ph.D. Candidate)",
       "image": "/images/team/partho/partho_large.webp",
-      "bio": "Graduate Research Assistant at Texas A&M University (Biological & Agricultural Engineering), specializing in deep learning algorithms, computer vision, and machine learning. Focuses on AI for resource usage in controlled environment agriculture. Former Lecturer at BUBT.",
+      "bio": "Graduate Research Assistant at Texas A&M University specializing in deep learning, computer vision, and machine learning. Former Lecturer at BUBT. Published in IEEE, Springer Nature, MDPI.",
+      "detailed_bio": "A Graduate Research Assistant at Texas A&M University specializing in deep learning algorithms, computer vision, and machine learning. Focuses on AI for resource usage in controlled environment agriculture. Passionate about mastering fundamental computer science algorithms, including data structures, dynamic programming, and game theory. Has experience in Python, Java, C, and C++ to tackle complex computational challenges. Beyond academics, enjoys watercolor painting, chess, gardening, and traveling.",
       "skills": [
         "Deep Learning",
         "Computer Vision",
         "Machine Learning",
-        "Precision Agriculture"
+        "Precision Agriculture",
+        "Python",
+        "Java",
+        "C/C++",
+        "Data Structures",
+        "Dynamic Programming"
+      ],
+      "tech_stack": [
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "Matlab",
+        "Fuzzy Logic Toolbox",
+        "PHP",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "Proteus",
+        "Simulink",
+        "Cadence Tools"
+      ],
+      "research_interests": [
+        "Deep Learning",
+        "Computer Vision",
+        "Machine Learning",
+        "Medical AI",
+        "Brain Image Segmentation",
+        "Tumor Detection",
+        "Plant Phenotyping",
+        "Sentiment Analysis",
+        "Disease Detection",
+        "Ensemble Learning"
+      ],
+      "experience": [
+        {
+          "title": "Graduate Research Assistant",
+          "organization": "Texas A&M University (Dr. Azlan Zahid's Lab)",
+          "start_date": "Aug 2024",
+          "end_date": "Present",
+          "description": "Research on 3D reconstruction of plant phenotyping and AI to optimize resource usage in controlled environment agriculture. Leveraging advanced AI models and computational techniques to enhance precision agriculture practices."
+        },
+        {
+          "title": "Lecturer",
+          "organization": "Bangladesh University of Business and Technology (BUBT)",
+          "start_date": "Jan 2022",
+          "end_date": "Jun 2024",
+          "description": "Designed and delivered lectures on core CSE subjects. Developed course materials. Supervised undergraduate research projects. Evaluated student performance. Organized academic events and workshops."
+        }
       ],
       "education": [
         {
@@ -129,13 +178,51 @@ export const siteConfig = {
           "degree": "M.Sc.",
           "field": "Computer Science & Engineering",
           "institution": "Jagannath University",
-          "year": "2018-2021"
+          "year": "2018-2021",
+          "gpa": "3.85"
         },
         {
           "degree": "B.Sc.",
           "field": "Computer Science & Engineering",
           "institution": "Jagannath University",
-          "year": "2013-2018"
+          "year": "2013-2018",
+          "gpa": "3.79"
+        }
+      ],
+      "awards": [
+        {
+          "name": "Best Paper Award",
+          "venue": "IEEE COMPAS 2024",
+          "year": 2024,
+          "project": "Grainbee"
+        },
+        {
+          "name": "Best Paper Award",
+          "venue": "EECSI 2021",
+          "year": 2021,
+          "project": "Deep viewing for Covid-19 detection from x-ray using CNN based architecture"
+        },
+        {
+          "name": "Best Paper Award",
+          "venue": "Jagannath University (M.Sc. Thesis)",
+          "year": 2021
+        }
+      ],
+      "projects": [
+        {
+          "name": "Smart Rice Leaf Disease Detection",
+          "description": "Deep learning system to detect damaged rice leaves using Neuroinformatics",
+          "url": ""
+        },
+        {
+          "name": "Online Blood Bank Management",
+          "description": "PHP/HTML/CSS/MySQL system for blood donor information",
+          "url": ""
+        },
+        {
+          "name": "Cow Disease Identification",
+          "description": "Matlab Fuzzy Logic Toolbox system for cow disease identification",
+          "url": ""
         }
       ],
       "socials": {
@@ -154,12 +241,100 @@ export const siteConfig = {
       "affiliation": "Bangladesh University of Business and Technology",
       "image": "/images/team/sohel/joni_large.webp",
       "bio": "Specializes in secure, decentralized systems. Lead author on HAC-Bchain and Grainbee. Researcher in post-quantum cryptography and consensus mechanisms.",
+      "detailed_bio": "A researcher specializing in secure, decentralized systems. Leads independent research projects at the intersection of AI and secure distributed systems, coordinating a team across multiple workstreams. Has published peer-reviewed work in IEEE, Springer Nature, and MDPI journals, covering blockchain security, post-quantum cryptography, and multi-agent systems.",
       "skills": [
         "Blockchain",
         "Reinforcement Learning",
         "Decentralized System",
         "LLM",
         "Post-Quantum Cryptography"
+      ],
+      "tech_stack": [
+        "Go",
+        "C/C++",
+        "Python",
+        "SQL",
+        "Hyperledger Fabric",
+        "libp2p",
+        "Docker",
+        "Protobuf",
+        "LevelDB"
+      ],
+      "research_interests": [
+        "Post-Quantum Cryptography",
+        "Zero-Knowledge Proofs",
+        "Multi-Party Computation",
+        "Hardware Security Modules",
+        "Federated Learning",
+        "Sharding",
+        "Deep Learning",
+        "Computer Vision",
+        "NLP",
+        "Game-Theoretic Modeling"
+      ],
+      "experience": [
+        {
+          "title": "Research Scholar",
+          "organization": "DeepGI Lab",
+          "start_date": "Jul 2025",
+          "end_date": "Present",
+          "description": "Leads independent research projects at the intersection of AI and secure distributed systems, coordinating a team across multiple concurrent workstreams. Publishes peer-reviewed work in IEEE, Springer Nature, and MDPI journals."
+        },
+        {
+          "title": "Research Scholar (Apprentice)",
+          "organization": "DeepGI Lab",
+          "start_date": "Jun 2023",
+          "end_date": "Jul 2025",
+          "description": "Took 10+ projects from initial proposal through implementation to publication, working across blockchain security, post-quantum cryptography, and distributed systems. Collaborated closely with the Lab Head on research direction, taking ownership of system design, coding, and academic writing."
+        },
+        {
+          "title": "Research Intern",
+          "organization": "DeepGI Lab",
+          "start_date": "Jun 2022",
+          "end_date": "Jun 2023",
+          "description": "Conducted research on blockchain security and cryptography, contributing to peer-reviewed publications on trustworthy distributed systems. Reviewed code for side-channel vulnerabilities and logic errors, proposing fixes that improved overall system security."
+        }
+      ],
+      "awards": [
+        {
+          "name": "Best Paper Award",
+          "venue": "IEEE COMPAS 2024",
+          "year": 2024,
+          "project": "Grainbee"
+        },
+        {
+          "name": "Champion (Research Poster - AI Mode)",
+          "venue": "Brainstorming Week 2024, BUBT",
+          "year": 2024
+        },
+        {
+          "name": "1st Runner-up (Idea Pitching)",
+          "venue": "Brainstorming Week 2024, BUBT",
+          "year": 2024,
+          "project": "IngredientIQ"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Grainbee",
+          "description": "Quantum-Resistant Blockchain-Based Ration Distribution System with HSMs",
+          "url": "https://github.com/JonyBepary/Grainbee_Blockchain"
+        },
+        {
+          "name": "HAC-Bchain",
+          "description": "Blockchain-Based E-Voting System",
+          "url": "https://github.com/JonyBepary/HBPEVS"
+        },
+        {
+          "name": "PQS-Bchain-FFL",
+          "description": "Post-Quantum Secure Blockchain for Federated Learning",
+          "url": "https://github.com/JonyBepary/pq_federated_incentive_system"
+        },
+        {
+          "name": "Climate Nash",
+          "description": "Game-Theoretic Flood Management",
+          "url": "https://github.com/JonyBepary/climate-nash-gt-approach"
+        }
       ],
       "education": [
         {
