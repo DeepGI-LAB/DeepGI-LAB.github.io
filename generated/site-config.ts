@@ -230,7 +230,8 @@ export const siteConfig = {
         "linkedin": "https://www.linkedin.com/in/partho-ghose-420aa921b",
         "scholar": "https://scholar.google.com/citations?user=Tqw15RkAAAAJ&hl=en",
         "orcid": "https://orcid.org/0000-0002-5840-2008",
-        "github": "https://github.com/PKghose"
+        "github": "https://github.com/PKghose",
+        "loop": "https://loop.frontiersin.org/people/2027562/overview"
       }
     },
     {
@@ -349,7 +350,8 @@ export const siteConfig = {
         "github": "https://github.com/JonyBepary",
         "linkedin": "https://linkedin.com/in/sohel-ahmed-jony",
         "scholar": "https://scholar.google.com/citations?user=1Ky6kj0AAAAJ&hl=en",
-        "orcid": "https://orcid.org/0009-0007-3020-4724"
+        "orcid": "https://orcid.org/0009-0007-3020-4724",
+        "loop": "https://loop.frontiersin.org/people/3469243/overview"
       }
     },
     {
