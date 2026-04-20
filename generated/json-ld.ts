@@ -167,7 +167,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "Knowledge and Information Systems"
+          "name": "Springer Science and Business Media LLC"
         },
         "url": "https://doi.org/10.1007/s10115-026-02693-6",
         "sameAs": "https://doi.org/10.1007/s10115-026-02693-6",
@@ -176,7 +176,52 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1007/s10115-026-02693-6"
         },
-        "keywords": "Blockchain, E-Voting, Post-Quantum, Sharding"
+        "keywords": "Blockchain, E-Voting, Post-Quantum, Sharding",
+        "issn": "0219-1377",
+        "volumeNumber": "68",
+        "issueNumber": "1",
+        "citation": 0,
+        "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "funder": [
+          {
+            "@type": "Organization",
+            "name": "National Institutes of Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "National Science Foundation CSSI"
+          },
+          {
+            "@type": "Organization",
+            "name": "U.S. Department of Energy"
+          }
+        ],
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Knowledge and Information Systems",
+          "issn": [
+            "0219-1377",
+            "0219-3116"
+          ]
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "E-Voting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Post-Quantum"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sharding"
+          }
+        ]
       }
     },
     {
@@ -209,7 +254,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "International Journal of System Assurance Engineering and Management"
+          "name": "Springer Science and Business Media LLC"
         },
         "url": "https://doi.org/10.1007/s13198-025-02927-w",
         "sameAs": "https://doi.org/10.1007/s13198-025-02927-w",
@@ -218,7 +263,32 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1007/s13198-025-02927-w"
         },
-        "keywords": "Blockchain, E-Voting, Post-Quantum"
+        "keywords": "Blockchain, E-Voting, Post-Quantum",
+        "issn": "0975-6809",
+        "citation": 0,
+        "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "International Journal of System Assurance Engineering and Management",
+          "issn": [
+            "0975-6809",
+            "0976-4348"
+          ]
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "E-Voting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Post-Quantum"
+          }
+        ]
       }
     },
     {
@@ -259,7 +329,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "Engrxiv Preprint"
+          "name": "Open Engineering Inc"
         },
         "url": "https://doi.org/10.31224/6079",
         "sameAs": "https://doi.org/10.31224/6079",
@@ -268,7 +338,31 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.31224/6079"
         },
-        "keywords": "Multi-Agent Systems, Game Theory, Disaster Response, KAN"
+        "keywords": "Multi-Agent Systems, Game Theory, Disaster Response, KAN",
+        "citation": 0,
+        "license": "https://creativecommons.org/licenses/by/4.0",
+        "isPartOf": {
+          "@type": "PublicationIssue",
+          "name": "Engrxiv Preprint"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Multi-Agent Systems"
+          },
+          {
+            "@type": "Thing",
+            "name": "Game Theory"
+          },
+          {
+            "@type": "Thing",
+            "name": "Disaster Response"
+          },
+          {
+            "@type": "Thing",
+            "name": "KAN"
+          }
+        ]
       }
     },
     {
@@ -305,7 +399,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "IEEE COMPAS"
+          "name": "IEEE"
         },
         "url": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
         "sameAs": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
@@ -314,7 +408,36 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1109/COMPAS60761.2024.10796594"
         },
-        "keywords": "Blockchain, Supply Chain, Security, HSM, Quantum-Resistant"
+        "keywords": "Blockchain, Supply Chain, Security, HSM, Quantum-Resistant",
+        "pagination": "1-6",
+        "citation": 1,
+        "license": "https://doi.org/10.15223/policy-029",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "IEEE COMPAS"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "Supply Chain"
+          },
+          {
+            "@type": "Thing",
+            "name": "Security"
+          },
+          {
+            "@type": "Thing",
+            "name": "HSM"
+          },
+          {
+            "@type": "Thing",
+            "name": "Quantum-Resistant"
+          }
+        ]
       }
     },
     {
@@ -355,7 +478,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "MDPI Blockchains"
+          "name": "MDPI AG"
         },
         "url": "https://doi.org/10.3390/blockchains2040017",
         "sameAs": "https://doi.org/10.3390/blockchains2040017",
@@ -364,7 +487,43 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.3390/blockchains2040017"
         },
-        "keywords": "Deep Learning, Blockchain, Biometrics, E-Voting, Sharding"
+        "keywords": "Deep Learning, Blockchain, Biometrics, E-Voting, Sharding",
+        "issn": "2813-5288",
+        "volumeNumber": "2",
+        "issueNumber": "4",
+        "pagination": "366-423",
+        "citation": 8,
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": true,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "MDPI Blockchains",
+          "issn": [
+            "2813-5288"
+          ]
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Deep Learning"
+          },
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "Biometrics"
+          },
+          {
+            "@type": "Thing",
+            "name": "E-Voting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sharding"
+          }
+        ]
       }
     },
     {
@@ -397,7 +556,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "Springer"
+          "name": "Springer Nature Singapore"
         },
         "url": "https://doi.org/10.1007/978-981-97-3937-0_47",
         "sameAs": "https://doi.org/10.1007/978-981-97-3937-0_47",
@@ -406,7 +565,37 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1007/978-981-97-3937-0_47"
         },
-        "keywords": "Blockchain, Deep Learning, Post-Quantum, E-Voting"
+        "keywords": "Blockchain, Deep Learning, Post-Quantum, E-Voting",
+        "issn": "2367-3370",
+        "pagination": "687-698",
+        "citation": 3,
+        "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Springer",
+          "issn": [
+            "2367-3370",
+            "2367-3389"
+          ]
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "Deep Learning"
+          },
+          {
+            "@type": "Thing",
+            "name": "Post-Quantum"
+          },
+          {
+            "@type": "Thing",
+            "name": "E-Voting"
+          }
+        ]
       }
     },
     {
@@ -443,7 +632,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "Springer"
+          "name": "Springer Nature Singapore"
         },
         "url": "https://doi.org/10.1007/978-981-97-3937-0_3",
         "sameAs": "https://doi.org/10.1007/978-981-97-3937-0_3",
@@ -452,7 +641,37 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1007/978-981-97-3937-0_3"
         },
-        "keywords": "Medical AI, Computer Vision, Deep Learning, Transfer Learning"
+        "keywords": "Medical AI, Computer Vision, Deep Learning, Transfer Learning",
+        "issn": "2367-3370",
+        "pagination": "33-44",
+        "citation": 2,
+        "license": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Springer",
+          "issn": [
+            "2367-3370",
+            "2367-3389"
+          ]
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Medical AI"
+          },
+          {
+            "@type": "Thing",
+            "name": "Computer Vision"
+          },
+          {
+            "@type": "Thing",
+            "name": "Deep Learning"
+          },
+          {
+            "@type": "Thing",
+            "name": "Transfer Learning"
+          }
+        ]
       }
     },
     {
@@ -489,7 +708,7 @@ export const jsonLd = {
         ],
         "publisher": {
           "@type": "Organization",
-          "name": "IEEE TEMSCON-ASPAC"
+          "name": "IEEE"
         },
         "url": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
         "sameAs": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
@@ -498,7 +717,32 @@ export const jsonLd = {
           "propertyID": "DOI",
           "value": "10.1109/TEMSCON-ASPAC59527.2023.10531344"
         },
-        "keywords": "Blockchain, Consensus, E-Voting, Sharding"
+        "keywords": "Blockchain, Consensus, E-Voting, Sharding",
+        "pagination": "1-6",
+        "citation": 5,
+        "license": "https://doi.org/10.15223/policy-029",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "IEEE TEMSCON-ASPAC"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Blockchain"
+          },
+          {
+            "@type": "Thing",
+            "name": "Consensus"
+          },
+          {
+            "@type": "Thing",
+            "name": "E-Voting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sharding"
+          }
+        ]
       }
     }
   ]

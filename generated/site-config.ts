@@ -506,6 +506,21 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1007_s10115-026-02693-6.pdf",
       "doi": "10.1007/s10115-026-02693-6",
       "link": "https://doi.org/10.1007/s10115-026-02693-6",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [
+        "0219-1377",
+        "0219-3116"
+      ],
+      "volume": "68",
+      "issue": "1",
+      "citation_count": 0,
+      "reference_count": 73,
+      "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+      "funder": [
+        "National Institutes of Health",
+        "National Science Foundation CSSI",
+        "U.S. Department of Energy"
+      ],
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature’s AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/s10115-026-02693-6\n\n© The Author(s), under exclusive licence to Springer Nature. Personal use of this material is permitted. Permission from Springer Nature must be obtained for all other uses.\n"
     },
     {
@@ -533,6 +548,13 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1007_s13198-025-02927-w.pdf",
       "doi": "10.1007/s13198-025-02927-w",
       "link": "https://doi.org/10.1007/s13198-025-02927-w",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [
+        "0975-6809",
+        "0976-4348"
+      ],
+      "citation_count": 0,
+      "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature's AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/s13198-025-02927-w"
     },
     {
@@ -562,7 +584,10 @@ export const siteConfig = {
       "paper_type": "preprint",
       "pdf_path": "/papers/10.31224_6079.pdf",
       "doi": "10.31224/6079",
-      "link": "https://doi.org/10.31224/6079"
+      "link": "https://doi.org/10.31224/6079",
+      "publisher": "Open Engineering Inc",
+      "citation_count": 0,
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
     },
     {
       "id": "p3",
@@ -592,6 +617,10 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1109_COMPAS60761.2024.10796594.pdf",
       "doi": "10.1109/COMPAS60761.2024.10796594",
       "link": "https://doi.org/10.1109/COMPAS60761.2024.10796594",
+      "publisher": "IEEE",
+      "pages": "1-6",
+      "citation_count": 1,
+      "license_url": "https://doi.org/10.15223/policy-029",
       "aam_terms": "© 2024 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.\n\nThe final Version of Record is available at: https://doi.org/10.1109/COMPAS60761.2024.10796594\n"
     },
     {
@@ -622,7 +651,16 @@ export const siteConfig = {
       "paper_type": "final_published",
       "pdf_path": "/papers/10.3390_blockchains2040017.pdf",
       "doi": "10.3390/blockchains2040017",
-      "link": "https://doi.org/10.3390/blockchains2040017"
+      "link": "https://doi.org/10.3390/blockchains2040017",
+      "publisher": "MDPI AG",
+      "issn": [
+        "2813-5288"
+      ],
+      "volume": "2",
+      "issue": "4",
+      "pages": "366-423",
+      "citation_count": 8,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "p5",
@@ -650,6 +688,14 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1007_978-981-97-3937-0_47.pdf",
       "doi": "10.1007/978-981-97-3937-0_47",
       "link": "https://doi.org/10.1007/978-981-97-3937-0_47",
+      "publisher": "Springer Nature Singapore",
+      "issn": [
+        "2367-3370",
+        "2367-3389"
+      ],
+      "pages": "687-698",
+      "citation_count": 3,
+      "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature’s AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/978-981-97-3937-0_47\n\n© The Author(s), under exclusive licence to Springer Nature. Personal use of this material is permitted. Permission from Springer Nature must be obtained for all other uses.\n"
     },
     {
@@ -679,6 +725,14 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1007_978-981-97-3937-0_3.pdf",
       "doi": "10.1007/978-981-97-3937-0_3",
       "link": "https://doi.org/10.1007/978-981-97-3937-0_3",
+      "publisher": "Springer Nature Singapore",
+      "issn": [
+        "2367-3370",
+        "2367-3389"
+      ],
+      "pages": "33-44",
+      "citation_count": 2,
+      "license_url": "https://www.springernature.com/gp/researchers/text-and-data-mining",
       "aam_terms": "This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature’s AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1007/978-981-97-3937-0_3\n\n© The Author(s), under exclusive licence to Springer Nature. Personal use of this material is permitted. Permission from Springer Nature must be obtained for all other uses.\n"
     },
     {
@@ -708,6 +762,10 @@ export const siteConfig = {
       "pdf_path": "/papers/10.1109_TEMSCON-ASPAC59527.2023.10531344.pdf",
       "doi": "10.1109/TEMSCON-ASPAC59527.2023.10531344",
       "link": "https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344",
+      "publisher": "IEEE",
+      "pages": "1-6",
+      "citation_count": 5,
+      "license_url": "https://doi.org/10.15223/policy-029",
       "aam_terms": "© 2023 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.\n\nThe final Version of Record is available at: https://doi.org/10.1109/TEMSCON-ASPAC59527.2023.10531344\n"
     }
   ],
